@@ -19,7 +19,7 @@ gem 'rack-cors', require: 'rack/cors'
 # For beautiful rails consoles
 gem 'hirb'
 
-group :development, :test do
+group :development, :test, :darwin do
   gem 'awesome_print'
   gem 'rubocop', require: false
   gem 'rspec-rails'
@@ -27,7 +27,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
   gem 'guard-rspec', require: false
-  gem 'rb-fsevent' if `uname` =~ /Darwin/
+  gem 'rb-fsevent'
   gem 'faker'
   gem 'pry-byebug'
 end
