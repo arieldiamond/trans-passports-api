@@ -80,6 +80,8 @@ test:
 #
 production:
   <<: *default
+  host: ec2-23-21-66-88.compute-1.amazonaws.com
   database: d92dv0g87e619o
+  port: 5432
   username: jxxqxkbxxwhvub
   password: <%= ENV['TRANS-P_DATABASE_PASSWORD'] %>
