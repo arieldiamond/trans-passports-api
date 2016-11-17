@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: trans-p_production
-  username: trans-p
+  database: d92dv0g87e619o
+  username: jxxqxkbxxwhvub
   password: <%= ENV['TRANS-P_DATABASE_PASSWORD'] %>
