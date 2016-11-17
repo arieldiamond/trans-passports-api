@@ -8,6 +8,7 @@ gem 'httparty'
 gem 'figaro'
 gem 'passenger'
 gem 'dotenv-rails'
+gem 'uglifier'
 
 # API
 gem 'grape'
