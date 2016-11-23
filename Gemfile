@@ -16,9 +16,6 @@ gem 'hashie-forbidden_attributes'
 gem 'grape-active_model_serializers'
 gem 'rack-cors', require: 'rack/cors'
 
-# React-Redux
-gem "react_on_rails", "~> 6"
-
 # For beautiful rails consoles
 gem 'hirb'
 
