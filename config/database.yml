@@ -79,7 +79,4 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: trans-p_production
-  username: trans-p
-  password: <%= ENV['TRANS-P_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
