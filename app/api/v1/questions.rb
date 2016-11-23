@@ -7,8 +7,6 @@ module V1
 
       get '/' do
         QuestionGroup.all
-        # questions = Data.where(type: 'question')
-        # questions.map{ q => q.answers }
       end
 
     end
