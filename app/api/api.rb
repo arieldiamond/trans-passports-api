@@ -13,6 +13,7 @@ class API < Grape::API
   end
 
   mount V1::Questions
+  mount V1::NextQuestion
 
   add_swagger_documentation(
     hide_documentation_path: true,

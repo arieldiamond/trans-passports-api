@@ -1,6 +1,7 @@
 class QuestionGroupSerializer < ActiveModel::Serializer
-  attributes :order,
-             :topic
+  attributes :key,
+  					 :question_text,
+  					 :subtitle
 
   has_many :answers
 end
